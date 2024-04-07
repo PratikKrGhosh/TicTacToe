@@ -82,7 +82,7 @@ const gameLogic = () =>{
     Array.from(box).forEach(e =>{
         let boxText = e.querySelector(".boxtext");
         e.addEventListener('click', ()=>{
-            if (boxText.innerText === "")
+            if (boxText.innerText === "" && hasWon !== true)
             {
                 boxText.innerText = turn;
                 checkWin();
