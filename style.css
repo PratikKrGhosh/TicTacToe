@@ -145,16 +145,15 @@ html, body
 
     .gameboard
     {
-        margin: 6vw 0;
-        grid-template-columns: repeat(3, 15vw);
-        grid-template-rows: repeat(3, 15vw);
+        margin: 40vw 0;
+        transform: scale(2);
     }
-
+    
     .msgbox
     {
-        width: 40vw;
+        transform: scale(2);
     }
-
+    
     .turnbox
     {
         height: 18vw;
